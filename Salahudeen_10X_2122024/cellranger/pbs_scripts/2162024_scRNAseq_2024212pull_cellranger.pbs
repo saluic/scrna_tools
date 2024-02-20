@@ -1,0 +1,37 @@
+#!/bin/bash
+
+# Specifies that the job be submitted to the batch queue.
+#PBS -q batch
+
+# Requests 2 node and 16 processor per node.
+#PBS -l nodes=1:ppn=16
+
+# Sets max walltime for the job to 1 hour.
+#PBS -l walltime=10:00:00
+
+# download more ram
+#PBS -l mem=100gb
+
+# Sets the name of the job as displayed by qstat.
+#PBS -N cellranger_2162024
+
+# Sends standard output to salmon.out.
+#PBS -o cellranger_2162024_10XscRNA.out
+
+# Merge output and error files.
+#PBS -j oe
+
+# Sends email on job abort, begin, and end.
+#PBS -m abe
+
+# Specifies email address to which mail should be sent.
+#PBS -M trusan2@uic.edu
+
+# Start the job in the current working directory.
+cd $PBS_O_WORKDIR/
+
+# go to cellranger wd
+cd /home/trusan2/10X/cellranger/cellranger-7.2.0/bin
+
+# Run cellranger by executing script
+/home/trusan2/10X/cellranger/runscripts/cellranger_multi_2162024_10XscRNA.sh
