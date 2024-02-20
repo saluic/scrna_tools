@@ -15,6 +15,7 @@ Expectations:
     - In this case: Multiplex FRP, 1 Probe Barcode/sample
 
 <br>  
+
 1. Navigate to the [pbs_scripts folder](https://github.com/saluic/scrna_tools/tree/main/Salahudeen_10X_2122024/cellranger/pbs_scripts)
 <br>
 
