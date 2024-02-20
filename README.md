@@ -17,7 +17,7 @@ Expectations:
 <br><br>
 
 1.) Navigate to the [pbs_scripts folder](https://github.com/saluic/scrna_tools/tree/main/Salahudeen_10X_2122024/cellranger/pbs_scripts)
-
+<br>  
 2.) We will be activating a job via qsub, running the 2162024_scRNAseq_2024212pull_cellranger.pbs  
 RUN:  
 ```qsub 2162024_scRNAseq_2024212pull_cellranger.pbs```  
