@@ -14,8 +14,7 @@ Expectations:
 - Prepare your [parameter csv file](https://github.com/saluic/scrna_tools/blob/main/Salahudeen_10X_2122024/cellranger/2162024_cellranger_multi_params.csv) that denotes the experimental parameters and data structure
     - In this case: Multiplex FRP, 1 Probe Barcode/sample
 
-<br><br>
-
+<br>  
 1. Navigate to the [pbs_scripts folder](https://github.com/saluic/scrna_tools/tree/main/Salahudeen_10X_2122024/cellranger/pbs_scripts)
 <br>
 
