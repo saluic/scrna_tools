@@ -3,7 +3,7 @@ Salahudeen Lab scRNA pipeline and tools
 <br><br><br>  
 
     
-## **2/12/2024, Salahudeen_10X_2122024 FFPE single-cell RNA seq samples**  
+## **2/12/2024, "Salahudeen_10X_2122024" FFPE single-cell RNA seq samples**  
 _Generated using the 10X Genomics Chromium Single Cell Gene Expression Flex platform  
 Processed via Fixed RNA Profiling using Cell Ranger multi_  
 [Follow the guide below in this directory:](https://github.com/saluic/scrna_tools/tree/main/Salahudeen_10X_2122024/cellranger)
