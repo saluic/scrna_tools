@@ -4,9 +4,9 @@ Salahudeen Lab scRNA pipeline and tools
 
     
 ## **2/12/2024, Salahudeen_10X_2122024 FFPE single-cell RNA seq samples**  
-    _Generated using the 10X Genomics Chromium Single Cell Gene Expression Flex platform  
-    Processed via Fixed RNA Profiling using Cell Ranger multi_  
-    [Follow the guide below in this directory:](https://github.com/saluic/scrna_tools/tree/main/Salahudeen_10X_2122024/cellranger)
+_Generated using the 10X Genomics Chromium Single Cell Gene Expression Flex platform  
+Processed via Fixed RNA Profiling using Cell Ranger multi_  
+[Follow the guide below in this directory:](https://github.com/saluic/scrna_tools/tree/main/Salahudeen_10X_2122024/cellranger)
 
 Expectations:
     fastq.gz files from 10X run are your input
@@ -20,7 +20,8 @@ Expectations:
 
 
   
-run "qsub 2162024_scRNAseq_2024212pull_cellranger.pbs"
+RUN:
+    `qsub 2162024_scRNAseq_2024212pull_cellranger.pbs`
     This is a pbs file that starts the job submission on the ACER cluster  
     This file denotes the parameters for the job submission, then executes the .sh runscript to activate cellranger  
   
