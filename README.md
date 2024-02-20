@@ -24,5 +24,5 @@ RUN:
     This is a pbs file that starts the job submission on the ACER cluster  
     This file denotes the parameters for the job submission, then executes the .sh runscript to activate cellranger  
   
-3.) The job will run cellranger multi tool on the Sample_S0117_2024 files and output the results to /projects/com_shared/ameen/lab/data/scRNAseq/Salahudeen_10X_2024212/run_cellranger_count_2162024
-    This will generate feature-barcode matrices for each sample, along with some initial analysis results by cellranger
+3.) The job will run cellranger multi tool on the Sample_S0117_2024 files and output the results to /projects/com_shared/ameen/lab/data/scRNAseq/Salahudeen_10X_2024212/run_cellranger_count_2162024  
+This will generate feature-barcode matrices for each sample, along with some initial analysis results by cellranger
