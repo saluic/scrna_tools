@@ -8,8 +8,8 @@ _Generated using the 10X Genomics Chromium Single Cell Gene Expression Flex plat
 Processed via Fixed RNA Profiling using Cell Ranger multi_  
 [Follow the guide below in this directory:](https://github.com/saluic/scrna_tools/tree/main/Salahudeen_10X_2122024/cellranger)
 
-Expectations:
-    fastq.gz files from 10X run are your input
+- Expectations:
+    - fastq.gz files from 10X run are your input
     Make sure your pbs file, and /projects/com_shared/ameen/lab/scrna_tools/repo/Salahudeen_10X_2122024/cellranger/runscripts/cellranger_multi_2162024_10XscRNA.sh have executable permissions
     Prepare your [parameter csv file](https://github.com/saluic/scrna_tools/blob/main/Salahudeen_10X_2122024/cellranger/2162024_cellranger_multi_params.csv) that denotes the experimental parameters and data structure
     In this case: Multiplex FRP, 1 Probe Barcode/sample
@@ -20,7 +20,7 @@ Expectations:
   
 
 RUN:  
-    `qsub 2162024_scRNAseq_2024212pull_cellranger.pbs`  
+   ```qsub 2162024_scRNAseq_2024212pull_cellranger.pbs```
     This is a pbs file that starts the job submission on the ACER cluster  
     This file denotes the parameters for the job submission, then executes the .sh runscript to activate cellranger  
   
