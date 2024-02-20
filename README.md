@@ -28,4 +28,4 @@ RUN:
 
 3. The job will run the **cellranger multi** tool on the Sample_S0117_2024 files and output the results to ```/projects/com_shared/ameen/lab/data/scRNAseq/Salahudeen_10X_2024212/run_cellranger_count_2162024``` 
     - This will generate feature-barcode matrices for each sample, along with some initial analysis DE results and more by cellranger  
-    - Please find the [abridged output from this run here](https://github.com/saluic/scrna_tools/tree/main/Salahudeen_10X_2122024/cellranger/abridged_outs_2162024run)https://github.com/saluic/scrna_tools/tree/main/Salahudeen_10X_2122024/cellranger/abridged_outs_2162024run****, remaining output is in the cluster location as above
+    - Please find the [abridged output from this run here](https://github.com/saluic/scrna_tools/tree/main/Salahudeen_10X_2122024/cellranger/abridged_outs_2162024run), remaining output is in the cluster location as above
