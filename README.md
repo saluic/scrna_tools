@@ -20,7 +20,7 @@ Expectations:
   
 
 RUN:  
-   ```qsub 2162024_scRNAseq_2024212pull_cellranger.pbs```
+   ```qsub 2162024_scRNAseq_2024212pull_cellranger.pbs```  
     This is a pbs file that starts the job submission on the ACER cluster  
     This file denotes the parameters for the job submission, then executes the .sh runscript to activate cellranger  
   
