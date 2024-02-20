@@ -1,27 +1,27 @@
 #!/bin/bash
 
 # This is a pbs file that starts the job submission on the ACER cluster
-# This file denotes the parameters for the job submission, then executes the .sh runscript to activate cellranger
+# This file denotes the parameters for the job submission, then executes the .sh runscript to activate cellranger.
 
 # Specifies that the job be submitted to the batch queue.
 #PBS -q batch
 
 # Requests 1 node and 16 processor per node.
-# Cellranger has documentation for how to activate parallel processing in a cluster environment, this was not done here
+# Cellranger has documentation for how to activate parallel processing in a cluster environment, this was not done here.
 #PBS -l nodes=1:ppn=16
 
 # Sets max walltime for the job to 10 hours.
-# This is limited by RAM availability
+# This is limited by RAM availability.
 #PBS -l walltime=10:00:00
 
 # Cellranger needs extensive RAM for this process. Less than 100gb will limit you.
-# This number has not been optimized for this run and user should monitor RAM use for future runs and adjust accordingly
+# This number has not been optimized for this run and user should monitor RAM use for future runs and adjust accordingly.
 #PBS -l mem=100gb
 
 # Sets the name of the job as displayed by qstat.
 #PBS -N cellranger_2162024
 
-# Sends standard output to log progress of your run, will print in directory of pbs file
+# Sends standard output to log progress of your run, will print in directory of pbs file.
 #PBS -o cellranger_2162024_10XscRNA.out
 
 # Merge output and error files.
@@ -31,14 +31,14 @@
 #PBS -m abe
 
 # Specifies email address to which mail should be sent.
-# This will tell you when your job is complete, use this
+# This will tell you when your job is complete, use this.
 #PBS -M 
 
 # Start the job in the current working directory.
 cd $PBS_O_WORKDIR/
 
-# go to cellranger wd
+# go to cellranger wd.
 cd /projects/com_shared/ameen/lab/10X/cellranger-7.2.0/bin
 
-# Run cellranger by executing script
+# Run cellranger by executing script.
 /projects/com_shared/ameen/lab/scrna_tools/repo/Salahudeen_10X_2122024/cellranger/runscripts/cellranger_multi_2162024_10XscRNA.sh
