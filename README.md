@@ -27,4 +27,4 @@ RUN:
 <br>  
 
 3. The job will run the **cellranger multi** tool on the Sample_S0117_2024 files and output the results to /projects/com_shared/ameen/lab/data/scRNAseq/Salahudeen_10X_2024212/run_cellranger_count_2162024  
-    - This will generate feature-barcode matrices for each sample, along with some initial analysis results by cellranger  
+    - This will generate feature-barcode matrices for each sample, along with some initial analysis DE results and more by cellranger  
