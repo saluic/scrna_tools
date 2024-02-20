@@ -12,7 +12,7 @@ Expectations:
 - fastq.gz files from 10X run are your input
 - Make sure your [pbs file](https://github.com/saluic/scrna_tools/blob/main/Salahudeen_10X_2122024/cellranger/pbs_scripts/2162024_scRNAseq_2024212pull_cellranger.pbs), and [.sh runscript](https://github.com/saluic/scrna_tools/blob/main/Salahudeen_10X_2122024/cellranger/runscripts/cellranger_multi_2162024_10XscRNA.sh) file have executable permissions
 - Prepare your [parameter csv file](https://github.com/saluic/scrna_tools/blob/main/Salahudeen_10X_2122024/cellranger/2162024_cellranger_multi_params.csv) that denotes the experimental parameters and data structure
-    - In this case: Multiplex FRP, 1 Probe Barcode/sample
+    - In this case: Multiplex FRP, 1 Probe Barcode/sample  
 
 <br>  
 
@@ -27,4 +27,4 @@ RUN:
 <br>  
 
 3. The job will run cellranger multi tool on the Sample_S0117_2024 files and output the results to /projects/com_shared/ameen/lab/data/scRNAseq/Salahudeen_10X_2024212/run_cellranger_count_2162024  
-    - This will generate feature-barcode matrices for each sample, along with some initial analysis results by cellranger
+    - This will generate feature-barcode matrices for each sample, along with some initial analysis results by cellranger  
