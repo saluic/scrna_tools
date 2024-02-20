@@ -1,7 +1,7 @@
 # This is a general README describing the cellranger pipeline in the Salahudeen lab, using the UIC ACER cluster
 # FFPE single-cell RNA seq samples generated using the 10X Genomics Chromium Single Cell Gene Expression Flex platform will be processed via Fixed RNA Profiling using Cell Ranger multi
 
-# 1.) Navigate to the pbs_scripts folder
+# 1.) Navigate to the [pbs_scripts folder](https://github.com/saluic/scrna_tools/tree/main/Salahudeen_10X_2122024/cellranger/pbs_scripts)
 
 # 2.) We will be activating a job via qsub, running the 2162024_scRNAseq_2024212pull_cellranger.pbs
 ## Make sure this pbs file, and /projects/com_shared/ameen/lab/scrna_tools/repo/Salahudeen_10X_2122024/cellranger/runscripts/cellranger_multi_2162024_10XscRNA.sh have execute permissions
