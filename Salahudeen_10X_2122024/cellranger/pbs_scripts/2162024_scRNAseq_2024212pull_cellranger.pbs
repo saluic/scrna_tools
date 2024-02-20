@@ -41,4 +41,4 @@ cd $PBS_O_WORKDIR/
 cd /projects/com_shared/ameen/lab/10X/cellranger-7.2.0/bin
 
 # Run cellranger by executing script.
-/projects/com_shared/ameen/lab/scrna_tools/repo/Salahudeen_10X_2122024/cellranger/runscripts/cellranger_multi_2162024_10XscRNA.sh
+/projects/com_shared/ameen/lab/scrna_tools/Salahudeen_10X_2122024/cellranger/runscripts/cellranger_multi_2162024_10XscRNA.sh
