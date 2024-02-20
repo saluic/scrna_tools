@@ -32,7 +32,7 @@
 
 # Specifies email address to which mail should be sent.
 # This will tell you when your job is complete, use this.
-#PBS -M 
+#PBS -M trusan2@uic.edu
 
 # Start the job in the current working directory.
 cd $PBS_O_WORKDIR/
