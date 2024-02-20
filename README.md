@@ -19,7 +19,7 @@ Expectations:
 1. Navigate to the [pbs_scripts folder](https://github.com/saluic/scrna_tools/tree/main/Salahudeen_10X_2122024/cellranger/pbs_scripts)
 <br>
 
-3. We will be activating a job via qsub, running the 2162024_scRNAseq_2024212pull_cellranger.pbs  
+2. We will be activating a job via qsub, running the 2162024_scRNAseq_2024212pull_cellranger.pbs  
 RUN:  
 ```qsub 2162024_scRNAseq_2024212pull_cellranger.pbs```  
 - This is a pbs file that starts the job submission on the ACER cluster  
